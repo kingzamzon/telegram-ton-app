@@ -2,6 +2,17 @@
 
 import { TonConnectButton, TonConnectUIProvider, useTonWallet, useTonConnectUI } from '@tonconnect/ui-react'
 import { useState, useEffect } from 'react'
+// Telegram Mini App SDK
+import WebApp from '@twa-dev/sdk';
+
+// Hide the main button
+WebApp.MainButton.hide();
+// Expand the Telegram Mini App to full screen
+WebApp.expand();
+// Initialize the Telegram Mini App SDK
+WebApp.ready();
+// Enable the closing confirmation
+WebApp.enableClosingConfirmation();
 
 function WalletInfo() {
   const wallet = useTonWallet()
