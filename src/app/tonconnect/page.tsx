@@ -35,7 +35,7 @@ function WalletInfo() {
 
 export default function TonConnectAdvanced() {
   return (
-    <TonConnectUIProvider manifestUrl="/ton-connect-manifest.json">
+    <TonConnectUIProvider manifestUrl="https://gray-used-skunk-826.mypinata.cloud/ipfs/QmYDaBpnyhzn37HPXnjfgGfYaXLSdcT3HsLFZTpZN9YkWK">
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
         <h1 className="text-2xl font-bold mb-4">Connect to TON Wallet</h1>
         <TonConnectButton />
