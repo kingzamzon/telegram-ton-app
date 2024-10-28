@@ -30,7 +30,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
          <nav className="p-4">
-          <Link href="/">Home</Link> | <Link href="/contact">Contact Us</Link>
+          <Link href="/">Home</Link> 
+          | <Link href="/contact">Contact Us</Link> 
+          | <Link href="/tonconnect">Ton Connect</Link>
         </nav>
         {children}
       </body>
